@@ -126,4 +126,4 @@ df['company_txt']=df.company_txt.apply(lambda x: x.strip())
 
 
 #Saving the Data
-#df.to_csv('processed_data.csv')
+df.to_csv('processed_data.csv')
